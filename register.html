@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <head>
-
+        <meta charset="utf-8">
+        <title>Register</title>
+        <script></script>
+        
+        <link rel="stylesheet" type="text/css" href="register.css">
+        
 </head>
 <body>
     <header>
         <h1>Register</h1>
     </header>
-    <div>
-        <input type="email"/>
-        <input type="date"/>
-        <input type="text"/>
-        <input type="text"/>
-    </div>
+    <h1>Your details</h1>
+    <ul id="registerList">
+        <li> <label for ="email">E-mail</label>
+            <input type="email"/>
+        </li>
+        <li>
+            <input type="date"/>
+        </li>
+        <li>
+            <input type="text"/>
+        </li>
+        <li>
+            <input type="text"/>
+        </li>
+        <label for="browser">Country</label>
+        <input type="text" list="browser"/> 
+        <datalist id="browser">
+            <option value ="United Kingdom">
+            <option value ="Bangladesh">
+            <option value ="South Africa">
+            <option value ="Qatar">
+            <option value ="Nepal">
+            <option value ="Australia">
+            <option value ="United Arab Emirates">
+            <option value ="France">
+            <option value ="Spain">
+            <option value ="Swithzerland">
+            <option value ="Germany">
+            <option value ="New Zealand">
+            <option value ="Bhutan">
+            <option value ="Maldives">
+            <option value ="Thailand">
+            <option value ="Turkey">
+            <option value ="Trinidad">
+            <option value ="Palestine">
+            <option value ="Jordan">
+            <option value ="Italy">
+            <option value ="Jamaica">
+            <option value ="Venezuela">
+            <option value ="Ecuador">
+            <option value ="Malaysia">
+    
+        </datalist>
+        <button>Submit</button>
+        
+        
+    </ul>
 </body>

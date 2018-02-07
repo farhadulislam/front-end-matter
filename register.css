@@ -1,0 +1,65 @@
+header{
+    text-align: center;
+}
+nav{
+    text-align: left;
+    display: inline;
+}
+
+body{
+    text-align: left;
+    
+}
+
+h1 {
+    color:rgb(238, 8, 0);
+    margin-bottom: 50px;
+    padding : 2px 2px 2px 2px;
+    text: bold;
+    border-bottom: 2px solid #0000FF;
+}
+
+h2{                                                                                                                                                                                                                                                       
+    color : #EE0000;
+    padding-top: 20px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+
+    border-bottom: 2px solid #FFCCCC
+}
+
+h3{
+    color : #EE6010;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+
+    border-bottom: 2px solid #FFCCCC
+}
+
+
+ul{
+
+    margin-left: 20px; 
+    padding : 3px 0px 3px 20px;
+    width: 400px;
+}
+
+ul li {
+    padding : 3px 0px 3px 20px;
+
+}
+
+label[for=email]{
+    text-align: center;
+}
+
+ button {
+     color: rgb(74, 97, 27);
+     margin-top:10px;
+     padding-top:5px;
+     font-size: 20px;
+     
+ }
