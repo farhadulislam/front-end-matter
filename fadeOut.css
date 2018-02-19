@@ -1,0 +1,42 @@
+body { color: #eee; }
+
+#nav {
+     margin: 40px auto;
+     text-align: center;
+}
+#nav li {
+    display: inline;
+}
+#nav a {
+    margin: 10px;
+    color: #eee;
+    font: bold 20px Sans-Serif;
+    text-decoration: none;
+}
+#login {
+    z-index: 2;
+}
+#login:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: -1;
+    pointer-events: none;
+}
+#login:hover:after {
+    z-index: 1; 
+    background: rgba(0,0,0,0.75);
+}
+#login strong {
+    background: green;
+    padding: 10px;
+}
+#login:hover strong {
+    position: relative;
+    z-index: 2;
+    
+}
