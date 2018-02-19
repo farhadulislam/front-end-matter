@@ -58,4 +58,15 @@
         background-color: #ffc;
         margin: 0px 50px 0px 50px;
       }
-   
+
+      li :nth-child(odd){
+        background-color : yellow;
+        margin: 0px 5px 0px 5px;
+      }
+
+      li:nth-child(even){
+        background-color : green;
+        margin: 0px 5px 0px 5px;
+      }
+
+    
