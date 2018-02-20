@@ -39,4 +39,17 @@ body { color: #eee; }
     position: relative;
     z-index: 2;
     
+
+}
+blockquote: before {
+
+    content : ' ';
+    background : url (C:\|myDev18\\myProjects\\portfolio\\img1.png);
+    display: block;
+    height : 30px;
+    width: 30px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+
 }
